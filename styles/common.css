@@ -4,3 +4,25 @@ body
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer  {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+}
+
+.footer > .logo-footer img {
+    width:180px;
+    height:100%;
+    filter: brightness(50%); 
+
+}

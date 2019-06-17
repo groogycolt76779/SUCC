@@ -9,3 +9,72 @@
     background-size: cover;
 
 }
+
+.hero > .top {
+    padding: 1px 20px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    width: 290px;
+    border-radius: 2px;
+}
+
+.hero > .bottom {
+    background-color: #cea135;
+    color: #11122b;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 107px;
+    border-radius: 2px;
+}
+
+/* fetures */
+.features {
+    height: 400px;
+    background-image:url(../images/logos/download\ \(1\).jpeg);
+    background-color: #cea135;
+    color: #11122b;
+    border-top: 10px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu Comdensed" , sans-serif;
+    box-shadow: inset 0px -26px 79px -8px rgba(0,0,0,0.58);
+}
+
+.features > .columns {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum {
+    padding: 20px;
+    margin: 42px;
+    text-align: center;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.colum:hover {
+    border-bottom: 5px solid #11122b
+}
+
+.colum :nth-child(1) {
+font-size: 3em;
+}
+
+.colum :nth-child(2) {
+    font-size: 1.5em;
+    font-weight: 900;
+    height: 50px;
+    transition: 1s;
+    }
+
+    .colum :nth-child(2):hover {
+       letter-spacing: 1px;
+    }
+
+    .colum :nth-child(3) {
+letter-spacing: 2px;
+    }
