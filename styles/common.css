@@ -74,3 +74,49 @@ transition: 0.5;
     font-size: 0.7em;
     color: #858585;
 }
+
+.sker {
+    position:relative;
+    height:400px;
+    overflow:hidden;
+}
+
+.sker>.hrbg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(50%)
+}
+
+.sker>.hen {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.sker>.hen>.shc {
+    width:1000px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sker>.hen>.shc>.hw {
+    background-color: #cea135;
+    color: #11122b;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 175px;
+    padding:10px;
+    text-align: center;
+    
+}
