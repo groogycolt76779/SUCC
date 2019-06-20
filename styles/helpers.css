@@ -1,0 +1,20 @@
+/* helpers */
+.spacer60 {
+    height:60px;
+    width:100%;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+.anchor:focus {
+    outline:none;
+}
+
+.anchor h1::after {
+    font-family: "Font Awsome 5 Free";
+    content: " \f0c1";
+    font-weight: 900;
+    
+}
