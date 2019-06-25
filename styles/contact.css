@@ -7,6 +7,7 @@
 
 .company-metadata-sidebar-wrap > .logo img {
      width: 100%; 
+     margin-bottom: 20px;
     
 }
 
@@ -14,4 +15,11 @@
     font-family: "Ubuntu Condensed", sans-serif;
     font-weight: 900;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
 }
+
